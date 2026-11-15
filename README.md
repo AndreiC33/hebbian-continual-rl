@@ -21,15 +21,15 @@ keep adapting where gradient-trained agents (PPO, PPO + continual backprop) stal
 
 | Stage | Status |
 |---|---|
-| Hebbian network + ES pipeline (CartPole pilot) | ✅ done |
-| Non-stationary dynamics wrapper (friction / mass / joint failure) | ⏳ next |
-| PPO and PPO + continual-backprop baselines | ⏳ |
-| Reward-modulated Hebbian rule | ⏳ |
-| Continual experiments on Brax tasks (Colab GPU) | ⏳ |
+| Hebbian network + ES pipeline (CartPole pilot) | done |
+| Non-stationary dynamics wrapper (friction / mass / joint failure) |  next |
+| PPO and PPO + continual-backprop baselines | next |
+| Reward-modulated Hebbian rule | next |
+| Continual experiments on Brax tasks (Colab GPU) | next |
 
 ### Pilot result (CartPole-v1)
 
-Rules evolved for 200 generations (population 128, ~70 s on 2 CPU cores). Tested on 100 brand-new
+Rules evolved for 200 generations (population 128, ~70 s on a laptop CPU). Tested on 100 brand-new
 random weight initialisations:
 
 | Condition | Mean return (max 500) |
