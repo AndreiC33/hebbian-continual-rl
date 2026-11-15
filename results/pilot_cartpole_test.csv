@@ -1,0 +1,3 @@
+condition,mean_return,std_return,n
+hebbian_plastic,500.0,0.0,100
+random_weights_no_plasticity,73.18999481201172,114.12631225585938,100

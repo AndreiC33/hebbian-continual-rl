@@ -1,0 +1,6 @@
+jax>=0.4.30
+gymnax>=0.0.9
+six  # needed by gymnax 1.0.x but not declared as its dependency
+evosax>=0.3.0
+optax
+matplotlib
